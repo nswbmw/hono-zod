@@ -1,0 +1,44 @@
+{
+  "name": "hono-zod",
+  "version": "1.0.0",
+  "description": "A simple validation middleware for Hono, using zod and zod-validation-error.",
+  "type": "module",
+  "module": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "author": "nswbmw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/hono-zod"
+  },
+  "keywords": [
+    "hono",
+    "middleware",
+    "zod",
+    "validator",
+    "validation",
+    "validate",
+    "schema",
+    "error"
+  ],
+  "devDependencies": {
+    "@hono/node-server": "1.19.1",
+    "eslint": "8.57.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-n": "17.21.3",
+    "eslint-plugin-promise": "6.1.1",
+    "hono": "4.9.6",
+    "jest": "30.1.3",
+    "zod": "4.1.5"
+  },
+  "dependencies": {
+    "zod-validation-error": "4.0.1"
+  },
+  "peerDependencies": {
+    "zod": "4.1.5"
+  }
+}

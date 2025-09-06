@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "node": true
+  },
+  "extends": ["standard"],
+  "rules": {
+    "camelcase": "off",
+    "comma-dangle": 0
+  },
+  "env": {
+    "jest": true
+  }
+}
