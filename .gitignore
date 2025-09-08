@@ -60,3 +60,4 @@ typings/
 # Custome ignore
 .DS_Store
 coverage
+dist
